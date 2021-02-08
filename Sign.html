@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <style>
+        body{
+            background-color: hotpink;
+            color: darkblue;
+        }
+    </style>
+</head> 
+<body>
+    <script>
+        var a=prompt("Enter user name");
+ var b=prompt("Enter password");
+  	(a== "Subho"&&b=="Tina")
+    </script>
+    <form action="backend.php">
+    <div>
+        Name: <input type="text" name="myName">
+    </div>
+    <br>
+    <div>
+        Address: <input type="text" name="myAddress">  
+    </div>
+    <br>
+    <div>
+        Email: <input type="email" name="myEmail">
+    </div>
+    <br>
+    <div>
+        Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+       </div> 
+       <br>
+    <div>  
+   City: <input type="City" name="myCity"> 
+   <br>
+   <div>
+       Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+   </div>
+   <br>
+<div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </div>
+</form>
+</body>
+</html>
